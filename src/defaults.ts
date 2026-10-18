@@ -130,6 +130,71 @@ export const PANEL_ICON_OPTS = [
   { value: 'tree', icon: '#tree' },
   { value: 'chill', icon: '#chill' },
   { value: 'fence', icon: '#fence' },
+  // Browser work icons (Tabler Icons, MIT license).
+  // Research & learning
+  { value: 'browser_work_search', icon: '#browser_work_search', tooltip: 'Web research' },
+  { value: 'browser_work_microscope', icon: '#browser_work_microscope', tooltip: 'Deep research' },
+  { value: 'browser_work_book', icon: '#browser_work_book', tooltip: 'Reading' },
+  { value: 'browser_work_world', icon: '#browser_work_world', tooltip: 'General browsing' },
+  { value: 'browser_work_bookmark', icon: '#browser_work_bookmark', tooltip: 'References' },
+  { value: 'browser_work_bulb', icon: '#browser_work_bulb', tooltip: 'Ideas' },
+  // Coding & technology
+  { value: 'browser_work_code', icon: '#browser_work_code', tooltip: 'Coding' },
+  { value: 'browser_work_terminal', icon: '#browser_work_terminal', tooltip: 'Command line' },
+  { value: 'browser_work_bug', icon: '#browser_work_bug', tooltip: 'Debugging' },
+  { value: 'browser_work_git-branch', icon: '#browser_work_git-branch', tooltip: 'Code reviews' },
+  { value: 'browser_work_database', icon: '#browser_work_database', tooltip: 'Data' },
+  { value: 'browser_work_server', icon: '#browser_work_server', tooltip: 'Infrastructure' },
+  // Writing & documents
+  { value: 'browser_work_pencil', icon: '#browser_work_pencil', tooltip: 'Writing' },
+  { value: 'browser_work_file-text', icon: '#browser_work_file-text', tooltip: 'Documents' },
+  { value: 'browser_work_notes', icon: '#browser_work_notes', tooltip: 'Notes' },
+  { value: 'browser_work_language', icon: '#browser_work_language', tooltip: 'Translation' },
+  { value: 'browser_work_typography', icon: '#browser_work_typography', tooltip: 'Editing' },
+  { value: 'browser_work_checklist', icon: '#browser_work_checklist', tooltip: 'Checklists' },
+  // Communication
+  { value: 'browser_work_mail', icon: '#browser_work_mail', tooltip: 'Email' },
+  { value: 'browser_work_messages', icon: '#browser_work_messages', tooltip: 'Chat' },
+  { value: 'browser_work_calendar', icon: '#browser_work_calendar', tooltip: 'Calendar' },
+  { value: 'browser_work_video', icon: '#browser_work_video', tooltip: 'Video calls' },
+  {
+    value: 'browser_work_presentation',
+    icon: '#browser_work_presentation',
+    tooltip: 'Presentations',
+  },
+  { value: 'browser_work_users', icon: '#browser_work_users', tooltip: 'Collaboration' },
+  // Work & planning
+  { value: 'browser_work_briefcase', icon: '#browser_work_briefcase', tooltip: 'Work' },
+  { value: 'browser_work_folder', icon: '#browser_work_folder', tooltip: 'Projects' },
+  { value: 'browser_work_target', icon: '#browser_work_target', tooltip: 'Goals' },
+  { value: 'browser_work_list-check', icon: '#browser_work_list-check', tooltip: 'Tasks' },
+  { value: 'browser_work_clock', icon: '#browser_work_clock', tooltip: 'Time tracking' },
+  { value: 'browser_work_chart-bar', icon: '#browser_work_chart-bar', tooltip: 'Analytics' },
+  // Shopping & money
+  { value: 'browser_work_shopping-cart', icon: '#browser_work_shopping-cart', tooltip: 'Shopping' },
+  { value: 'browser_work_credit-card', icon: '#browser_work_credit-card', tooltip: 'Payments' },
+  { value: 'browser_work_receipt', icon: '#browser_work_receipt', tooltip: 'Invoices' },
+  { value: 'browser_work_wallet', icon: '#browser_work_wallet', tooltip: 'Budgeting' },
+  { value: 'browser_work_building-bank', icon: '#browser_work_building-bank', tooltip: 'Banking' },
+  { value: 'browser_work_coin', icon: '#browser_work_coin', tooltip: 'Finance' },
+  // Media & creativity
+  { value: 'browser_work_player-play', icon: '#browser_work_player-play', tooltip: 'Videos' },
+  { value: 'browser_work_headphones', icon: '#browser_work_headphones', tooltip: 'Podcasts' },
+  { value: 'browser_work_music', icon: '#browser_work_music', tooltip: 'Music' },
+  { value: 'browser_work_photo', icon: '#browser_work_photo', tooltip: 'Images' },
+  { value: 'browser_work_palette', icon: '#browser_work_palette', tooltip: 'Design' },
+  {
+    value: 'browser_work_device-gamepad-2',
+    icon: '#browser_work_device-gamepad-2',
+    tooltip: 'Games',
+  },
+  // Personal & utilities
+  { value: 'browser_work_plane', icon: '#browser_work_plane', tooltip: 'Travel' },
+  { value: 'browser_work_map', icon: '#browser_work_map', tooltip: 'Maps' },
+  { value: 'browser_work_home', icon: '#browser_work_home', tooltip: 'Home' },
+  { value: 'browser_work_heart', icon: '#browser_work_heart', tooltip: 'Health' },
+  { value: 'browser_work_shield-lock', icon: '#browser_work_shield-lock', tooltip: 'Privacy' },
+  { value: 'browser_work_settings', icon: '#browser_work_settings', tooltip: 'Utilities' },
 ]
 export const COLOR_OPTS = [
   { value: 'toolbar', color: 'toolbar' },

@@ -439,6 +439,7 @@ function onNameInput(value: string): void {
 }
 
 function setIcon(value: string): void {
+  if (value.startsWith('browser_work_')) onCustomIconRm()
   props.conf.iconSVG = value
   SidebarConf.saveSidebarConfig(250)
 }

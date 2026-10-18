@@ -492,3 +492,7 @@
 .NavigationBar.-vert[data-layout="right"] .hidden-panels-enter-from .hidden-panels-popup
 .NavigationBar.-vert[data-layout="right"] .hidden-panels-leave-to .hidden-panels-popup
   transform: translateX(4px)
+
+// Browser work icons use outlines and follow the panel color.
+.NavigationBar .nav-item .icon > use[href^="#browser_work_"]
+  color: var(--color, var(--nav-btn-fg))

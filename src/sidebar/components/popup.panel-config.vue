@@ -119,6 +119,11 @@ function onSave(): void {
     panel.reactive.name = panel.name
     panel.reactive.color = panel.color
     panel.reactive.iconSVG = panel.iconSVG
+    if (panel.iconSVG.startsWith('browser_work_')) {
+      panel.iconIMG = ''
+      panel.iconIMGSrc = ''
+      panel.reactive.iconIMG = ''
+    }
     panel.reactive.hidden = panel.hidden
     panel.reactive.tooltip = Sidebar.getPanelTooltip(panel)
     Sidebar.saveSidebar()
@@ -139,6 +144,11 @@ function onSave(): void {
     panel.reactive.name = panel.name
     panel.reactive.color = panel.color
     panel.reactive.iconSVG = panel.iconSVG
+    if (panel.iconSVG.startsWith('browser_work_')) {
+      panel.iconIMG = ''
+      panel.iconIMGSrc = ''
+      panel.reactive.iconIMG = ''
+    }
     panel.reactive.hidden = panel.hidden
 
     if (popup.index !== undefined && popup.index >= 0) {

@@ -4,6 +4,7 @@ import path from 'path'
 import * as Utils from './utils.js'
 
 const COPY = {
+  './src/assets/browser-work/LICENSE.txt': `${Utils.ADDON_PATH}/licenses/tabler-icons.txt`,
   './src/manifest.json': {
     path: `${Utils.ADDON_PATH}/`,
     handler: handleManifest,

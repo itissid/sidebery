@@ -1,3 +1,11 @@
+# Sidebery — Browser Work Icons fork
+
+This public fork adds 48 browser-work icons directly to Sidebery's panel menus. Custom source lives on the [`browser-work-icons`](https://github.com/itissid/sidebery/tree/browser-work-icons) branch.
+
+See [CHANGES-FORK.md](CHANGES-FORK.md) for changes and validation. The shared [sidebery-fork maintenance skill](https://github.com/itissid/agent-skills/tree/main/skills/sidebery-fork) covers security review and upstream merges; it stops before browser installation.
+
+---
+
 <div align="center">
 
 <img src="docs/assets/readme-logo.svg" height="96" alt="Sidebery">
